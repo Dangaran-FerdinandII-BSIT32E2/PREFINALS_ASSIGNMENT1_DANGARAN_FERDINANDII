@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Biyong\\Downloads\\PREFINALS_ASSIGNMENT1_SANTURDIO_ALLEN-JEROME_BSIT32E2-main\\PREFINALSAUTH_Santurdio_AllenJerome\\ProtectedApi\\ProtectedApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Biyong\\Downloads\\PREFINALS_ASSIGNMENT1_SANTURDIO_ALLEN-JEROME_BSIT32E2-main\\PREFINALSAUTH_Santurdio_AllenJerome\\AuthServer\\AuthServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Biyong\\Downloads\\PREFINALS_ASSIGNMENT1_SANTURDIO_ALLEN-JEROME_BSIT32E2-main\\PREFINALSAUTH_Santurdio_AllenJerome\\AuthServer\\AuthServer.csproj",
+        "projectName": "AuthServer",
+        "projectPath": "C:\\Users\\Biyong\\Downloads\\PREFINALS_ASSIGNMENT1_SANTURDIO_ALLEN-JEROME_BSIT32E2-main\\PREFINALSAUTH_Santurdio_AllenJerome\\AuthServer\\AuthServer.csproj",
+        "packagesPath": "C:\\Users\\Biyong\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Biyong\\Downloads\\PREFINALS_ASSIGNMENT1_SANTURDIO_ALLEN-JEROME_BSIT32E2-main\\PREFINALSAUTH_Santurdio_AllenJerome\\AuthServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Biyong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Biyong\\Downloads\\PREFINALS_ASSIGNMENT1_SANTURDIO_ALLEN-JEROME_BSIT32E2-main\\PREFINALSAUTH_Santurdio_AllenJerome\\ProtectedApi\\ProtectedApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Biyong\\Downloads\\PREFINALS_ASSIGNMENT1_SANTURDIO_ALLEN-JEROME_BSIT32E2-main\\PREFINALSAUTH_Santurdio_AllenJerome\\ProtectedApi\\ProtectedApi.csproj",
+        "projectName": "ProtectedApi",
+        "projectPath": "C:\\Users\\Biyong\\Downloads\\PREFINALS_ASSIGNMENT1_SANTURDIO_ALLEN-JEROME_BSIT32E2-main\\PREFINALSAUTH_Santurdio_AllenJerome\\ProtectedApi\\ProtectedApi.csproj",
+        "packagesPath": "C:\\Users\\Biyong\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Biyong\\Downloads\\PREFINALS_ASSIGNMENT1_SANTURDIO_ALLEN-JEROME_BSIT32E2-main\\PREFINALSAUTH_Santurdio_AllenJerome\\ProtectedApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Biyong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Biyong\\Downloads\\PREFINALS_ASSIGNMENT1_SANTURDIO_ALLEN-JEROME_BSIT32E2-main\\PREFINALSAUTH_Santurdio_AllenJerome\\AuthServer\\AuthServer.csproj": {
+                "projectPath": "C:\\Users\\Biyong\\Downloads\\PREFINALS_ASSIGNMENT1_SANTURDIO_ALLEN-JEROME_BSIT32E2-main\\PREFINALSAUTH_Santurdio_AllenJerome\\AuthServer\\AuthServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
